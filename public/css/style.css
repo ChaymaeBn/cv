@@ -1,0 +1,264 @@
+body {
+    margin: 0;
+    background-color: #404040;
+}
+
+.cv {
+    width: 72%;
+    margin: auto;
+    border: 1px solid gray;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    background-color: #ffffff;
+}
+
+.cv h2 {
+    text-transform: uppercase;
+    font-size: 19px;
+}
+.cv hr {
+    color: #ccc;
+    border: 1px solid;
+}
+
+.cv a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.cv a:hover {
+    color: blueviolet;
+}
+
+.top {
+    background-color: #e6e6e6;
+    display: flex;
+    padding: 28px;
+}
+
+.top .bloc-1 img {
+    width: 153px;
+    border-radius: 50%;
+}
+
+.top .images_top {
+    width: 153px;
+    border-radius: 50%;
+}
+
+.top i {
+    color: blueviolet;
+}
+
+.top h2 {
+    font-size: 33px;
+    font-weight: 300;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.top h3 {
+    font-size: 33px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+.bloc-1 {
+    width: 23%;
+    background-color: #e6e6e6;
+    float: left;
+}
+
+.bloc-2 {
+    width: 32%;
+    background-color: #e6e6e6;
+    float: left;
+}
+
+.bloc-3 {
+    width: 30%;
+    background-color: #e6e6e6;
+    float: left;
+    padding-top: 16px;
+}
+
+.bloc-3 ul li {
+    padding-bottom: 5px;
+}
+
+.bloc-3 ul {
+    list-style-type: none;
+}
+
+.description {
+    padding: 22px;
+}
+
+.competence {
+    padding: 22px;
+    padding-top: 0px;
+}
+
+.formation {
+    padding: 22px;
+    padding-top: 0px;
+}
+
+.experience {
+    padding: 22px;
+    padding-top: 0px;
+}
+
+.centre {
+    padding: 22px;
+    padding-top: 0px;
+}
+
+.formation tr td:first-child {
+    width: 27%;
+}
+
+.formation tr td:last-child {
+    font-weight: 700;
+}
+
+.formation td p {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.experience td ul {
+    padding-left: 13px;
+    font-weight: 300;
+}
+
+.formation td {
+    padding-bottom: 20px;
+}
+
+.formation h2 {
+    margin: 0;
+}
+
+.formation hr {
+    margin-bottom: 23px;
+}
+
+.experience tr td:first-child {
+    width: 27%;
+}
+
+.experience td:last-child {
+    font-weight: 700;
+}
+
+.experience td p {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.experience td {
+    padding-bottom: 20px;
+}
+
+.experience h2 {
+    margin: 0;
+}
+
+.experience hr {
+    margin-bottom: 23px;
+}
+
+.centre h2 {
+    margin: 0;
+}
+
+.centre hr {
+    margin-bottom: 23px;
+}
+
+.centre ul {
+    list-style: disclosure-closed;
+}
+
+.centre ul li {
+    padding-bottom: 12px;
+}
+
+.bloc-3 img {
+    width: 17px;
+    padding-right: 7px;
+}
+
+.competence tr td hr {
+    width: 72px;
+    height: 9px;
+    border-radius: 5px;
+    border: 1px solid #999;
+}
+
+.competence .langue ul li {
+    list-style: none;
+}
+
+.competence .langue .fr {
+    background: linear-gradient(to left, #e6e6e6 16%, #004d99 0%);
+    border-radius: 5px;
+}
+
+.competence .langue .en {
+    background: linear-gradient(to left, #e6e6e6 39%, #004d99 0%);
+    border-radius: 5px;
+}
+.competence .langue .es {
+    background: linear-gradient(to left, #e6e6e6 80%, #004d99 20%);
+    border-radius: 5px;
+}
+
+.competence .langue .lang {
+    padding-left: 14px;
+}
+
+.competence .col-2 {
+    width: 34%;
+}
+
+.competence .col-1 {
+    width: 38%;
+}
+
+.competence .col-3 ul {
+    list-style: none;
+}
+
+.competence .col-3 ul li {
+    padding-bottom: 6px;
+}
+
+.competence .col-1 ul li {
+    padding-bottom: 6px;
+}
+
+.content {
+    background-color: #ffffff;
+    position: absolute;
+    width: 60%;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content h2 {
+    text-transform: uppercase;
+}
+
+.bloc_content {
+    display: inline-grid;
+    grid-template-columns: 126px 559px;
+    grid-template-rows: auto auto;
+    padding: 30px;
+    padding-left: 30%;
+}
